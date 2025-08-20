@@ -1,0 +1,99 @@
+/* div{
+    border: 3px solid blue ;
+    padding: 50px 330px;
+} */
+
+
+/* descendant
+div p {
+    background-color: aqua;
+} */
+
+
+/* child */
+/* div>p {
+    background-color: aqua;
+} */
+
+
+
+/* adjascent sibling */
+/* div+p {
+    background-color: aqua;
+} */
+
+
+/* general sibling  */
+/* div~p {
+    background-color: aqua;
+} */
+
+
+
+/* pseudo */
+a:link{
+    color: red;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    background-color: rgb(138, 138, 164);
+    border: 5px solid black;
+}
+
+a:active{
+    background-color: green;
+}
+
+
+
+
+/* img{
+    opacity:0.5;
+   
+}
+img:hover{
+    opacity: 1;
+    border-radius: 50px;
+} */
+
+/* pseudo element */
+p::first-line{
+    color: aqua;
+}
+
+p::first-letter{
+    font-size: xx-large;
+    color: red;
+}
+p::before{
+    content: "🐣";
+}
+p::after{
+    content: "😊";
+}
+
+/* universal */
+*{
+    color: red;
+}
+
+
+
+
+
+
+body{
+    
+    background-image:url("image1.jpg");
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    /* background-attachment:fixed ; 
+    background-position: center; */
+
+}
+
+h1{
+    text-align: center;
+}
